@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Rivian Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black">
+    <header class="container mx-auto px-4">
+        <nav class="bg-slate-300 rounded-2xl fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] h-[75px] flex justify-between items-center px-6 backdrop-blur-2xl hover:bg-gray-300">
+            <div class="flex items-center space-x-6">
+                <span class="text-4xl font-bold"><i class='bx bx-menu'></i></span>
+                <span class="text-2xl font-bold">R2</span>
+                <span class="text-2xl font-bold">R3</span>
+            </div>
+            <div>
+                <span class="text-2xl font-bold">RAVIAN</span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto pt-[100px]">
+        <div class="relative w-full h-screen">
+            <video class="absolute top-0 left-0 object-cover w-full h-full" autoplay muted loop>
+                <source src="/dist/video/VID-20250305-WA0007.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <section class="flex flex-col md:flex-row gap-10 p-6">
+            <h1 class="text-4xl md:text-6xl font-semibold">Keep the world<br>adventurous<br>forever</h1>
+            <div>
+                <p class="text-lg md:text-2xl">A California company with a global perspective, Rivian builds all-electric vehicles with a common goal — preserving the natural world for generations to come.</p>
+                <button class="bg-black text-white rounded-3xl mt-6 px-6 py-2">Stay in Touch</button>
+            </div>
+        </section>
+
+        <section class="bg-black text-white px-6 py-12">
+            <h2 class="text-3xl md:text-5xl">Our vehicles are always evolving</h2>
+            <p class="text-lg md:text-2xl mt-4">Whether taking families on new adventures or electrifying fleets at scale, our technology-led vehicles offer a fully connected experience that improves over time.</p>
+            <div class="grid md:grid-cols-2 gap-8 mt-10">
+                <div class="relative">
+                    <img src="/dist/img/eu_r1s_card_gdxicg.webp" class="rounded-2xl hover:scale-105 transition-transform duration-300 w-full" alt="R1S">
+                    <button class="absolute bottom-4 left-4 bg-white text-black font-bold px-4 py-2 rounded-xl">Explore the R1S</button>
+                </div>
+                <div class="relative">
+                    <img src="/dist/img/real.png" class="rounded-2xl hover:scale-105 transition-transform duration-300 w-full" alt="R1T">
+                    <button class="absolute bottom-4 left-4 bg-white text-black font-bold px-4 py-2 rounded-xl">Explore the R1T</button>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mt-10">
+                <div class="relative">
+                    <img src="/dist/img/sustainability_parallax_quote_noyhpd.webp" class="rounded-2xl hover:scale-105 transition-transform duration-300 w-full" alt="Tech">
+                    <button class="absolute bottom-4 left-4 bg-white text-black font-bold px-4 py-2 rounded-xl">Explore technology</button>
+                </div>
+                <div class="relative">
+                    <img src="/dist/img/carr.png" class="rounded-2xl hover:scale-105 transition-transform duration-300 w-full" alt="Vans">
+                    <button class="absolute bottom-4 left-4 bg-white text-black font-bold px-4 py-2 rounded-xl">Explore Vans</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#854b30] px-6 py-12 text-white">
+            <div class="flex flex-col lg:flex-row gap-8 items-center">
+                <img src="/dist/img/sustainability_parallax_quote_noyhpd.webp" class="w-full lg:w-[50%]" alt="Mission">
+                <div>
+                    <h3 class="text-2xl md:text-3xl mb-4">Our mission is forever</h3>
+                    <p>We're here to preserve the planet for our kids and our kids' kids. It's a huge objective — but one we believe is possible when individuals and industries come together to create fundamental change.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-black text-white flex flex-col md:flex-row justify-between items-center px-6 py-12">
+            <p class="text-center md:text-left text-xl">Rivian is coming to Europe — be one of the first to get the latest news and updates.</p>
+            <button class="mt-4 md:mt-0 bg-white text-black rounded-full px-6 py-2">Stay in touch</button>
+        </section>
+
+        <footer class="bg-[#0f0e0e] text-white px-6 py-12">
+            <div class="grid md:grid-cols-3 gap-10">
+                <ul>
+                    <li class="font-semibold mb-2">Our company</li>
+                    <li class="hover:underline">Investors</li>
+                    <li class="hover:underline">Stories</li>
+                    <li class="hover:underline">Newsroom</li>
+                    <li class="hover:underline">Governance</li>
+                </ul>
+                <ul>
+                    <li class="text-gray-400 text-sm">Company</li>
+                    <li class="hover:underline">Governance</li>
+                    <li class="hover:underline">Newsroom</li>
+                    <li class="hover:underline">Investors</li>
+                </ul>
+                <ul>
+                    <li class="text-gray-400 text-sm">Resources</li>
+                    <li class="hover:underline">Careers</li>
+                </ul>
+            </div>
+
+            <div class="mt-10 flex flex-col md:flex-row justify-between items-center text-sm gap-6">
+                <span>GB <i class='bx bx-globe'></i></span>
+                <span>&copy;2025 Rivian Europe B.V. All rights reserved.</span>
+                <ul class="flex gap-4">
+                    <li class="hover:underline">Terms</li>
+                    <li class="hover:underline">Privacy</li>
+                    <li class="hover:underline">Cookies</li>
+                    <li class="hover:underline">Legal notice</li>
+                    <li class="hover:underline">Accessibility</li>
+                </ul>
+                <div class="text-2xl">
+                    <i class='bx bxl-linkedin-square'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-youtube'></i>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
